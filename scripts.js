@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('a').addEventListener('click', function() {
+    document.querySelector('.cta-button').addEventListener('click', function() {
         alert('Button clicked!');
     });
 });
