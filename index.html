@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Landing Page</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Coming Soon - Stay Updated</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <div class="container">
-        <h1>Welcome to My Landing Page</h1>
-        <p>This is a beautifully customized landing page using GitHub Pages.</p>
-        <a href="#" class="cta-button">Learn More</a>
+        <h1>Coming Soon - Stay Updated</h1>
+        <p>Stay informed by entering your email address below:</p>
+        <form id="email-form" action="https://formspree.io/f/mqkrjdgv" method="POST">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+        <p id="thank-you-message" style="display:none;">Thank you for your interest!</p>
     </div>
 </header>
 
@@ -21,25 +25,39 @@
     <div class="container">
         <div class="feature">
             <i class="fas fa-check-circle"></i>
-            <h2>Feature One</h2>
-            <p>Description of feature one.</p>
+            <h2>Step into the World of Fashion</h2>
+            <p>Explore the latest trends and timeless classics effortlessly. Find the perfect outfit for any occasion with just a few clicks.</p>
         </div>
         <div class="feature">
             <i class="fas fa-check-circle"></i>
-            <h2>Feature Two</h2>
-            <p>Description of feature two.</p>
+            <h2>Ultimate Product Discovery</h2>
+            <p>Experience seamless shopping. Our search engine finds exactly what you need, from gadgets to beauty products, with ease.</p>
         </div>
         <div class="feature">
             <i class="fas fa-check-circle"></i>
-            <h2>Feature Three</h2>
-            <p>Description of feature three.</p>
+            <h2>Exclusive Content and Updates</h2>
+            <p>Stay ahead with the latest news and updates in beauty and fashion. Be the first to know about trends and exclusive content.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"This platform has revolutionized the way I shop for clothes. The recommendations are always spot on!"</p>
+            <p>- Emily R.</p>
+        </div>
+        <div class="testimonial">
+            <p>"I love being the first to know about new trends and exclusive products. Highly recommended!"</p>
+            <p>- Michael B.</p>
         </div>
     </div>
 </section>
 
 <footer>
     <div class="container">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 MoCa. All rights reserved.</p>
     </div>
 </footer>
 
